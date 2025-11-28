@@ -1,0 +1,32 @@
+body{
+    background-image: url('./images/background1.jpg');
+    background-position: center;
+    background-size: cover;
+    color: Black;
+}
+
+.wrapper{
+    text-align: center;
+}
+main{
+    margin-inline: 10%;
+    margin-top: 30px;
+}
+.flex-view{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* gap:20px; */
+    justify-content: space-between;
+    gap: 20px;
+}
+.card{
+    width: 30%;
+    text-align: center;
+    padding-block:20px;
+}
+.lang_logo{
+    height: 50px;
+    /* width: 50px; */
+    max-width: 200px;
+}
