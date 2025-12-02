@@ -38,6 +38,15 @@ main{
     justify-content: space-between;
     gap: 20px;
 }
+.flex-view h2{
+    margin-inline: auto;
+}
+.group h4{
+    color: yellow;
+    font-weight: bold;
+    text-decoration:underline ;
+    
+}
 .actions{
     display: flex;
     flex-direction: row;
